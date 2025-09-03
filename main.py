@@ -17,7 +17,7 @@ def update(current_mouse_pos: tuple[int, int], last_mouse_pos: tuple[int, int]) 
         handle_events(e)
     
     if not is_mouse_pos_same(current_mouse_pos, last_mouse_pos):
-        print("a")
+        ...
 
 def draw() -> None:
     """
